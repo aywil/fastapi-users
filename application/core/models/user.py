@@ -3,7 +3,7 @@ from fastapi_users_db_sqlalchemy import (
     SQLAlchemyBaseUserTable,
     SQLAlchemyUserDatabase,
 )
-from core.types.user_id import UserIdType
+from core.types import UserIdType
 
 from .mixins.id_int_pk import IdIntPkMixin
 from .base import Base

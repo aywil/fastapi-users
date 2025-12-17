@@ -5,7 +5,7 @@ from fastapi_users import (
     IntegerIDMixin,
 )
 
-from core.types.user_id import UserIdType
+from core.types import UserIdType
 from core.config import settings
 from core.models import User
 
