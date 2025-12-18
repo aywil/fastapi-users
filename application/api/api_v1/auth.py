@@ -38,7 +38,7 @@ router.include_router(
     ),
     tags=["Verify"],
 )
-<<<<<<< HEAD
+
 
 # POST /forgot-password¶
 # POST /reset-password¶
@@ -46,5 +46,3 @@ router.include_router(
     fastapi_users.get_reset_password_router(),
     tags=["ResetPWD"],
 )
-=======
->>>>>>> 37b3ca6 (user manager handle request verify)
