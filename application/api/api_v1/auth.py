@@ -37,3 +37,11 @@ router.include_router(
     ),
     tags=["Verify"],
 )
+
+# POST /forgot-password¶
+# POST /reset-password¶
+router.include_router(
+    fastapi_users.get_reset_password_router(),
+    tags=["ResetPWD"],
+)
+
