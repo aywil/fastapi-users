@@ -23,7 +23,8 @@ router.include_router(
 
 # /register
 router.include_router(
-    router=fastapi_users.get_register_router(UserRead, UserCreate),
-    prefix="/auth",
-    tags=["auth"],
+    router=fastapi_users.get_register_router(
+        UserRead,
+        UserCreate,
+    ),
 )
